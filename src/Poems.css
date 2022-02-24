@@ -1,0 +1,65 @@
+.poems {
+    width:90%;
+    height: auto;
+    min-height: 100vh;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+button {
+     
+    background-color: #cb997e;
+    width: 10rem;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color:#583624;
+    border-radius: 10px;
+    border-color: #d8c0b3 ;
+  
+}
+button:hover {
+    background-color: #b68b74;
+    transform: translate(2px, 2px);
+}
+button:active {
+    background-color: #b68b74;
+    box-shadow: 0 2px #d8c0b3;
+    transform: translateY(14px);
+  }
+
+  /* .main-title {
+      text-align: center;
+      margin-bottom: 5rem;
+      padding-top: 5rem;
+  } */
+  h2{
+      font-size: 18px;
+      font-family: 'Courgette', cursive;
+      text-align: center;
+     font-weight: 600;
+     padding: 1rem;
+     color:#4a4e69;
+     text-decoration: underline;
+   
+  }
+  h2:hover {
+    color:#1b214b;
+    /* transform: scale(1.5); */
+    transform: translate(2px, 2px);
+  }
+  p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+   font-weight: 600;
+   padding: 1rem;
+   color:#4a4e69;
+  }
+  .lines {
+      font-size: 14px;
+      line-height: 0mm;
+      color:#4a4e69;
+  }

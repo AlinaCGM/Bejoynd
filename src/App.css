@@ -1,0 +1,17 @@
+.App {
+ 
+  background-color: #ffe8d6;
+}
+
+  
+.type {
+ 
+  background: none;
+  padding-top: 5rem ;
+  width: 50%;
+  margin: auto;
+  color: #583624;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
