@@ -4,7 +4,7 @@ import './Poems.css'
 export default function App() {
   const [data, setData] = useState([])
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+ 
   const [clicked, setClicked] = useState(true)
   const [selectedItem, setSelectedItem] = useState(null)
   const [favorites, setFavorites] = useState([])
@@ -21,11 +21,11 @@ export default function App() {
         }
         const actualData = await response.json()
         setData(actualData)
-        setError(null)
+      
         console.log(data)
 
       } catch (err) {
-        setError(err.message)
+      
         setData(null)
       } finally {
         setLoading(false)
